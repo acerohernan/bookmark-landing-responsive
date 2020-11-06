@@ -1,11 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
-  <title>Frontend Mentor | Bookmark landing page</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Bookmark landing page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="main-menu">
+          <li>
+            <img class="main-menu__logo" src="/images/logo-bookmark.svg" />
+          </li>
+          <li>
+            <img
+              class="main-menu__hamburger"
+              src="/images/icon-hamburger.svg"
+            />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-container__img">
+          <img class="img__image" src="/images/illustration-hero.svg" />
+          <div class="img__square"></div>
+        </div>
+        <h1 class="hero-container__title">A Simple Bookmark Manager</h1>
+        <p class="hero-container__copy u-p">
+          A clean and simple interface to organize your favourite websites. Open
+          a new browser tab and see your sites load instantly. Try it for free.
+        </p>
+        <div class="hero-container__buttons">
+          <button
+            class="hero-container__buttons hero-container__buttons--chrome"
+          >
+            Get in Chrome
+          </button>
+          <button
+            class="hero-container__buttons hero-container__buttons--firefox"
+          >
+            Get in Firefox
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="features-container">
+        <h2 class="features__title u-h2">Features</h2>
+        <p class="features__copy u-p">
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+        <ul class="features__nav">
+          <li class="features__link">Simple Bookmarking</li>
+          <li class="features__link features__link--no-border">
+            Speedy Searching
+          </li>
+          <li class="features__link">Easy Sharing</li>
+        </ul>
+        <div class="features-ilustration">
+          <img
+            class="features__img"
+            src="images/illustration-features-tab-1.svg"
+          />
+          <h2 class="features__title u-h2">Bookmark in one click</h2>
+          <p class="features__copy u-p">
+            Organize your bookmarks however you like. Our simple drag-and-drop
+            interface gives you complete control over how you manage your
+            favourite sites.
+          </p>
+        </div>
+        <div class="features-ilustration">
+          <img
+            class="features__img"
+            src="images/illustration-features-tab-2.svg"
+          />
+          <h2 class="features__title u-h2">Intelligent search</h2>
+          <p class="features__copy u-p">
+            Our powerful search feature will help you find saved sites in no
+            time at all. No need to trawl through all of your bookmarks.
+          </p>
+        </div>
+        <div class="features-ilustration">
+          <img
+            class="features__img"
+            src="images/illustration-features-tab-3.svg"
+          />
+          <h2 class="features__title u-h2">Share your bookmarks</h2>
+
+          <p class="features__copy u-p">
+            Easily share your bookmarks and collections with others. Create a
+            shareable link that you can send at the click of a button.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="download">
+      <div class="download-container">
+        <h2 class="dowload__title u-h2">Download the extension</h2>
+        <p class="download__copy u-p">
+          We’ve got more browsers in the pipeline. Please do let us know if
+          you’ve got a favourite you’d like us to prioritize.
+        </p>
+        <div class="download-square">
+          <img src="/images/logo-chrome.svg" class="download-square__img" />
+          <h3 class="download-square__title u-h2">Add to Chrome</h3>
+          <span class="dowload-square__version u-p">Minimum version 62</span>
+          <img src="/images/bg-dots.svg" class="download-square__dots" />
+          <button class="download-square__button">
+            Add & Install Extension
+          </button>
+        </div>
+        <div class="download-square">
+          <img src="/images/logo-firefox.svg" class="download-square__img" />
+          <h3 class="download-square__title u-h2">Add to Firefox</h3>
+          <span class="dowload-square__version u-p">Minimum version 55</span>
+          <img src="/images/bg-dots.svg" class="download-square__dots" />
+          <button class="download-square__button">
+            Add & Install Extension
+          </button>
+        </div>
+        <div class="download-square">
+          <img src="/images/logo-opera.svg" class="download-square__img" />
+          <h3 class="download-square__title u-h2">Add to Opera</h3>
+          <span class="dowload-square__version u-p">Minimum version 46</span>
+          <img src="/images/bg-dots.svg" class="download-square__dots" />
+          <button class="download-square__button">
+            Add & Install Extension
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="frequently">
+      <div class="frequently-container">
+        <h2 class="frequently__title u-h2">Frequently Asked Questions</h2>
+        <p class="frequently__copy u-p">
+          Here are some of our FAQs. If you have any other questions you’d like
+          answered please feel free to email us.
+        </p>
+        <div class="frequently-questions">
+          <h3 class="frequently__question">What is Bookmark?</h3>
+          <p class="frequently__answer u-p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum
+            quis quam ornare mattis.
+          </p>
+          <h3 class="frequently__question">How can I request a new browser?</h3>
+          <p class="frequently__answer u-p">
+            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+            ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros
+            aliquet convallis ultricies. Mauris augue massa, ultricies non
+            ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis
+            ultricies. Mauris augue massa, ultricies non ligula. Suspendisse
+            imperdiet.
+          </p>
+          <h3 class="frequently__question">Is there a mobile app?</h3>
+          <p class="frequently__answer u-p">
+            Sed consectetur quam id neque fermentum accumsan. Praesent luctus
+            vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula
+            quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin
+            ex et ultricies bibendum.
+          </p>
+          <h3 class="frequently__question">
+            What about other Chromium browsers?
+          </h3>
+          <p class="frequently__answer u-p">
+            Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat
+            mi, at euismod dui. Aliquam vitae neque eget nisl gravida
+            pellentesque non ut velit.
+          </p>
+        </div>
+        <button class="frequently__button">More Info</button>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <img src="/images/logo-bookmark.svg" class="footer__img" />
+        <ul class="footer-nav">
+          <li><a href="#" class="footer-nav__link">FEATURES</a></li>
+          <li><a href="#" class="footer-nav__link">PRICING</a></li>
+          <li><a href="#" class="footer-nav__link">CONTACT</a></li>
+          <a href="#" class="footer-nav__img footer-nav__img--fb"></a>
+
+          <a href="#" class="footer-nav__img footer-nav__img--tw"></a>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
