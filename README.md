@@ -88,5 +88,9 @@ A massive thank you to our community sponsors!
 - [Triplebyte](http://bit.ly/fem-triplebyte) is a really nice offering if you're looking for a new role. It's a free service that lets you take a confidential quiz. Based on your results companies will pitch you for their vacant roles!
 =======
 # bookmark-landing-responsive
+<<<<<<< HEAD
 I've made a responsive landing page with HTML and CSS.
 >>>>>>> cd7799a62edabd749a6668cf0aa335bac0706c1a
+=======
+I've made a responsive landing page with HTML and CSS. :D
+>>>>>>> 49cdd7dfe3dff42d7265b3ab4df122aa082ea840
